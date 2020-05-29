@@ -1,0 +1,6 @@
+<keymap version="1" name="Windows remapped go to header/source" parent="$default">
+  <action id="CIDR.Lang.SwitchHeaderSource">
+    <keyboard-shortcut first-keystroke="ctrl alt home" />
+  </action>
+  <action id="GotoRelated" />
+</keymap>

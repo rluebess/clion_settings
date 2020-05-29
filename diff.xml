@@ -1,0 +1,8 @@
+<application>
+  <component name="ExternalDiffSettings">
+    <option name="DIFF_ENABLED" value="true" />
+    <option name="DIFF_EXE_PATH" value="C:\Program Files\TortoiseSVN\bin\TortoiseIDiff.exe" />
+    <option name="MERGE_ENABLED" value="true" />
+    <option name="MERGE_EXE_PATH" value="C:\Program Files\TortoiseSVN\bin\TortoiseMerge.exe" />
+  </component>
+</application>

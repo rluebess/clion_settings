@@ -1,0 +1,20 @@
+<application>
+  <component name="CodeInsightSettings">
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="NEXT_ERROR_ACTION_GOES_TO_ERRORS_FIRST" value="false" />
+  </component>
+  <component name="EditorSettings">
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="TOOLTIPS_DELAY_MS" value="400" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\b(todo|fixme)\b.*" />
+    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\b(HACK)\b.*">
+      <option name="FOREGROUND" value="a8c023" />
+      <option name="FONT_TYPE" value="2" />
+      <option name="ERROR_STRIPE_COLOR" value="977ab" />
+    </pattern>
+  </component>
+</application>

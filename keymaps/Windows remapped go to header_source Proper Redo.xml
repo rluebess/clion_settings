@@ -1,0 +1,12 @@
+<keymap version="1" name="Windows remapped go to header/source Proper Redo" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="CIDR.Lang.SwitchHeaderSource">
+    <keyboard-shortcut first-keystroke="ctrl alt home" />
+  </action>
+  <action id="EditorDeleteLine" />
+  <action id="GotoRelated" />
+</keymap>
