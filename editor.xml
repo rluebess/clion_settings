@@ -11,6 +11,8 @@
   <component name="EditorSettings">
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="TOOLTIPS_DELAY_MS" value="400" />
+    <option name="RENAME_VARIABLES_INPLACE" value="false" />
+    <option name="PRESELECT_RENAME" value="false" />
   </component>
   <component name="TodoConfiguration">
     <pattern pattern="\b(todo|fixme)\b.*" />
