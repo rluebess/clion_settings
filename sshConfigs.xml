@@ -2,7 +2,7 @@
   <component name="SshConfigs">
     <configs>
       <sshConfig authType="PASSWORD" host="localhost" id="671da340-703e-4770-96ef-8dfe5848630d" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf" />
-      <sshConfig authType="PASSWORD" host="localhost" id="6138009b-4a73-4fc2-b9a4-400d4f6c3bc7" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf" />
+      <sshConfig authType="PASSWORD" host="localhost" id="0a44f0df-8a1e-4de6-af3e-578086fb580f" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf" />
     </configs>
   </component>
 </application>
