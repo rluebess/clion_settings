@@ -35,7 +35,7 @@
       <option name="cpp" value="true" />
     </context>
   </template>
-  <template name="/*" value="/* $TEXT$$END$ */ $END$" shortcut="SPACE" description="Section Comment" toReformat="true" toShortenFQNames="true">
+  <template name="/*" value="/** $TEXT$$END$ */ $END$" shortcut="SPACE" description="Section Comment" toReformat="true" toShortenFQNames="true">
     <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
