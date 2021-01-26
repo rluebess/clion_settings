@@ -1,0 +1,46 @@
+<templateSet group="C/C++">
+  <template name="/&lt;" value="/**&lt; $TEXT$$END$ */ $END$" shortcut="SPACE" description="Doxygen member doc" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="/h" value="///*****************************************************************************&#10;/*&#10;|*  Copyright       :   (c) $YEAR$ CAS (Deutschland) &#10;|*  Filename        :   $FILE_NAME$&#10;|*  Version         :   0.1&#10;|*  Programmer(s)   :   Rolf Luebess (RL)&#10;|*  Created         :   $DATE$ &#10;|*  Modified        :&#10;|*  Description     :   $SELECTION$&#10;|*  &#10;|*  This file was created as part of the GOBD fiscal memory project&#10;*/ &#10;//****************************************************************************///&#10;&#10;$END$&#10;" description="File-Header in CAS DE Style" toReformat="false" toShortenFQNames="true">
+    <variable name="YEAR" expression="date(&quot;Y&quot;)" defaultValue="" alwaysStopAt="false" />
+    <variable name="FILE_NAME" expression="fileName()" defaultValue="" alwaysStopAt="false" />
+    <variable name="DATE" expression="date(&quot;dd.MM.Y&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="CSS" value="false" />
+      <option name="CoffeeScript" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JSON" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="REQUEST" value="false" />
+      <option name="SQL" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="/m" value="// MOD: RL ($DATE$) $SELECTION$ //$END$" shortcut="SPACE" description="Modified by Rolf" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date(&quot;dd.MM.Y&quot;)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="##" value="#ifdef $NAME$&#10;$SELECTION$ &#10;#endif    //$NAME$&#10;$END$" description="#ifdef mit ende" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="completeSmart(snakeCase(String))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="/*" value="/** $TEXT$$END$ */ $END$" shortcut="SPACE" description="Section Comment" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>

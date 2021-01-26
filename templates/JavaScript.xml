@@ -1,0 +1,5 @@
+<templateSet group="JavaScript">
+  <template name="warn" value="console.warn($END$)" description="console.warn()" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

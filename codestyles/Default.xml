@@ -1,0 +1,12 @@
+<code_scheme name="Default" version="173">
+  <Objective-C>
+    <option name="KEEP_CASE_EXPRESSIONS_IN_ONE_LINE" value="true" />
+    <option name="ADD_BRIEF_TAG" value="true" />
+  </Objective-C>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="ALIGN_MULTILINE_CHAINED_METHODS" value="true" />
+    <indentOptions>
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
+</code_scheme>

@@ -1,0 +1,26 @@
+<keymap version="1" name="Windows remapped go to header/source Proper Redo" parent="$default">
+  <action id="$Redo">
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
+    <keyboard-shortcut first-keystroke="shift alt back_space" />
+    <keyboard-shortcut first-keystroke="ctrl y" />
+  </action>
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="CIDR.Lang.SwitchHeaderSource">
+    <keyboard-shortcut first-keystroke="ctrl alt home" />
+  </action>
+  <action id="EditorCodeBlockEnd">
+    <keyboard-shortcut first-keystroke="ctrl close_bracket" />
+    <keyboard-shortcut first-keystroke="alt down" />
+  </action>
+  <action id="EditorCodeBlockStart">
+    <keyboard-shortcut first-keystroke="ctrl open_bracket" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorDeleteLine" />
+  <action id="GotoRelated" />
+  <action id="MethodDown" />
+  <action id="MethodUp" />
+  <action id="ShowContent" />
+  <action id="ShowSearchHistory" />
+</keymap>
