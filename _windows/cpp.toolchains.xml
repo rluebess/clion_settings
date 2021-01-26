@@ -3,7 +3,7 @@
     <toolchains detectedVersion="5">
       <toolchain name="Cygwin" toolSetKind="CYGWIN" toolSetPath="C:\cygwin64" debuggerKind="CUSTOM_GDB" customGDBPath="C:\cygwin64\bin\gdb.exe" />
       <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional" debuggerKind="BUNDLED_LLDB" />
-      <toolchain name="WSL" toolSetKind="WSL" toolSetPath="C:\Users\rl\AppData\Local\Microsoft\WindowsApps\ubuntu.exe" customCMakePath="\usr\bin\cmake" hostId="53670a5a-58e0-4b7e-8fa1-2903b876d1a4" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
+      <toolchain name="WSL" toolSetKind="WSL" toolSetPath="C:\Users\Rolf\AppData\Local\Microsoft\WindowsApps\ubuntu2004.exe" customCMakePath="\usr\bin\cmake" hostId="53670a5a-58e0-4b7e-8fa1-2903b876d1a4" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
       <toolchain name="MinGW_IAR" toolSetKind="MINGW" toolSetPath="C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32" customCCompilerPath="C:\Program Files (x86)\IAR Systems\Embedded Workbench 5.4\arm\bin\iccarm.exe" debuggerKind="CUSTOM_GDB" customGDBPath="C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin\gdb.exe" />
     </toolchains>
   </component>
