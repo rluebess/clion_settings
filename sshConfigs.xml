@@ -1,8 +1,15 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="localhost" id="671da340-703e-4770-96ef-8dfe5848630d" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf" />
-      <sshConfig authType="PASSWORD" host="localhost" id="4ecb21e0-d032-43c1-8a25-1f1c12781ade" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf" />
+      <sshConfig authType="PASSWORD" host="localhost" id="671da340-703e-4770-96ef-8dfe5848630d" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf">
+        <option name="customName" value="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="localhost" id="4ecb21e0-d032-43c1-8a25-1f1c12781ade" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM" username="rolf">
+        <option name="customName" value="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" />
+      </sshConfig>
+      <sshConfig authType="PASSWORD" host="localhost" id="53c3808f-b5e3-48e6-849f-90cb92ad853a" port="22" customName="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" nameFormat="CUSTOM">
+        <option name="customName" value="WSL (53670a5a-58e0-4b7e-8fa1-2903b876d1a4)" />
+      </sshConfig>
     </configs>
   </component>
 </application>
