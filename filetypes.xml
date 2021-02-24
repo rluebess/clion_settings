@@ -1,7 +1,6 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="17">
     <extensionMap>
-      <mapping ext="s" type="AUTO_DETECTED" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
