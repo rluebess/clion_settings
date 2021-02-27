@@ -3,7 +3,9 @@
     <extensionMap>
       <mapping ext="s" type="ObjectiveC" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
+      <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="s" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
     </extensionMap>
   </component>
 </application>
