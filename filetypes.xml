@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping ext="mac" type="ObjectiveC" />
       <mapping ext="s" type="ObjectiveC" />
       <mapping ext="tmpl" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
