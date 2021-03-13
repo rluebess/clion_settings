@@ -1,12 +1,14 @@
 <code_scheme name="Default" version="173">
   <Objective-C>
+    <option name="INDENT_PREPROCESSOR_DIRECTIVE" value="4" />
+    <option name="INDENT_DIRECTIVE_AS_CODE" value="true" />
     <option name="KEEP_CASE_EXPRESSIONS_IN_ONE_LINE" value="true" />
     <option name="ADD_BRIEF_TAG" value="true" />
   </Objective-C>
   <Objective-C-extensions>
     <extensions>
       <pair source="cpp" header="h" fileNamingConvention="SNAKE_CASE" />
-      <pair source="c" header="h" fileNamingConvention="NONE" />
+      <pair source="c" header="h" fileNamingConvention="SNAKE_CASE" />
       <pair source="cu" header="cuh" fileNamingConvention="NONE" />
     </extensions>
   </Objective-C-extensions>
