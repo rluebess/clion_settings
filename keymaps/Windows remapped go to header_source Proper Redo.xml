@@ -6,8 +6,19 @@
   </action>
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
+  <action id="CIDR.Debugger.CopyAddress" />
   <action id="CIDR.Lang.SwitchHeaderSource">
     <keyboard-shortcut first-keystroke="ctrl alt home" />
+  </action>
+  <action id="CopyAbsolutePath" />
+  <action id="CopyAsPlainText">
+    <keyboard-shortcut first-keystroke="shift ctrl c" />
+  </action>
+  <action id="CopyPaths">
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
+  </action>
+  <action id="DatabaseView.CopyDdlAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
@@ -19,8 +30,12 @@
   </action>
   <action id="EditorDeleteLine" />
   <action id="GotoRelated" />
+  <action id="IntroduceConstant" />
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="RemoteHostView.CopyPaths" />
   <action id="ShowContent" />
   <action id="ShowSearchHistory" />
+  <action id="TodoViewGroupByFlattenPackage" />
+  <action id="WelcomeScreen.CopyProjectPath" />
 </keymap>
