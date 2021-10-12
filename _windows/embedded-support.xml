@@ -1,0 +1,5 @@
+<application>
+  <component name="EmbeddedDevelopment">
+    <option name="openOcdLocation" value="C:\tools\OpenOCD-20210729-0.11.0\bin\openocd.exe" />
+  </component>
+</application>
