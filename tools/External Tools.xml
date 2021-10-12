@@ -3,7 +3,7 @@
     <exec>
       <option name="COMMAND" value="C:\Users\Rolf\.platformio\packages\toolchain-gccarmnoneeabi\bin\arm-none-eabi-gdb.exe" />
       <option name="PARAMETERS" value="-f target\stm32f1x.cfg" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/.platformio/packages/toolchain-gccarmnoneeabi/bin" />
+      <option name="WORKING_DIRECTORY" value="C:/Users/Rolf/.platformio/packages/toolchain-gccarmnoneeabi/bin" />
     </exec>
   </tool>
 </toolSet>
