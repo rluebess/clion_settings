@@ -5,7 +5,6 @@
     <debuggers>
       <debugger id="ObjectiveC">
         <configuration>
-          <option name="HEX_FORMATTING_ENABLED" value="true" />
           <nt-symbol-settings />
         </configuration>
       </debugger>
