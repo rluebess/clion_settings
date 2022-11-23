@@ -43,4 +43,11 @@
       <option name="cpp" value="true" />
     </context>
   </template>
+  <template name="#r" value="#pragma region $NAME$&#10;$SELECTION$ &#10;#pragma endregion  //$NAME$&#10;$END$" shortcut="SPACE" description="#region mit ende" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="completeSmart(snakeCase(String))" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
 </templateSet>
