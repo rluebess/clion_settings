@@ -50,13 +50,23 @@
       <option name="cpp" value="true" />
     </context>
   </template>
-  <template name="/tsecmd" value="uint8_t tmpDataBuf[31] = {0x00};&#10;uint32_t timeOut = 2000;&#10;if ((tseResult = SendCmd(sbcmd_DummyCmd, (const uint8_t *) tmpDataBuf, sizeof(tmpDataBuf),&#10;                         (NULL),    // No Callback, sync operation&#10;                         timeOut)) != SwBi_ERROR_NOERROR) {&#10;    RETURN_WARN1(&quot;Sending xxx failed&quot;);&#10;}&#10;$END$&#10;" shortcut="SPACE" description="TSE CMD call with return" toReformat="false" toShortenFQNames="true">
+  <template name="/tsecmdAsync" value="uint8_t tmpDataBuf[31] = {0x00};&#10;uint32_t timeOut = 2000;&#10;if ((tseResult = SendCmd(sbcmd_DummyCmd, (const uint8_t *) tmpDataBuf, sizeof(tmpDataBuf),&#10;                         (NULL),    // No Callback, sync operation&#10;                         timeOut)) != SwBi_ERROR_NOERROR) {&#10;    RETURN_WARN1(&quot;Sending xxx failed&quot;);&#10;}&#10;$END$&#10;" shortcut="SPACE" description="TSE CMD call with return" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="c" value="true" />
     </context>
   </template>
   <template name="/tsefun" value="if ((tseResult = $NAME$ ()) != SwBi_ERROR_NOERROR) {&#10;            SYS_DEBUG_BreakPoint();&#10;            RETURN_WARN1(&quot;executing $NAME$ failed&quot;);&#10;}&#10;$END$&#10;" shortcut="SPACE" description="TSE Function with Return Check" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="sbcmd_DummyCmd" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="/tsecmdwait_WithResponse" value="uint8_t tmpDataBuf[31] = {0x00};&#10;uint32_t timeOut = 2000;&#10;&#10;uint8_t respBuffer[512]={0};&#10;uint32_t respDataLen;&#10;&#10;if ((tseResult = sendCmdWaitResponse(sbcmd_DummyCmd, (const uint8_t *) tmpDataBuf, sizeof(tmpDataBuf),&#10;                         (NULL),    // No Callback, sync operation&#10;                         timeOut,&#10;                         respBuffer, sizeof(respBuffer), &amp;respDataLen&#10;                         )) != SwBi_ERROR_NOERROR) {&#10;    SYS_DEBUG_BreakPoint();&#10;    RETURN_WARN1(&quot;Sending xxx failed&quot;);&#10;}&#10;$END$" shortcut="SPACE" description="TSE CMD wait finish call with return and result" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="/tsecmdwait_NULL_Response" value="uint8_t tmpDataBuf[31] = {0x00};&#10;uint32_t timeOut = 2000;&#10;&#10;if ((tseResult = sendCmdWaitResponse(sbcmd_DummyCmd, (const uint8_t *) tmpDataBuf, sizeof(tmpDataBuf),&#10;                         (NULL),    // No Callback, sync operation&#10;                         timeOut,&#10;                         NULL, 0, NULL&#10;                         )) != SwBi_ERROR_NOERROR) {&#10;    SYS_DEBUG_BreakPoint();&#10;    RETURN_WARN1(&quot;Sending xxx failed&quot;);&#10;}&#10;$END$" shortcut="SPACE" description="TSE CMD wait finish call with return ignore response Data" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="c" value="true" />
     </context>
