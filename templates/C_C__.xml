@@ -43,11 +43,22 @@
       <option name="cpp" value="true" />
     </context>
   </template>
-  <template name="#r" value="/** $NAME$ */&#10;#pragma region $NAME$&#10;$SELECTION$ &#10;#pragma endregion  //$NAME$&#10;$END$" shortcut="SPACE" description="#region mit ende" toReformat="true" toShortenFQNames="true">
+  <template name="#r" value="/** $NAME$ */&#10;#pragma region $NAME$&#10;SwBi_Error_t $NAME$() {&#10;    SwBi_Error_t tseResult;&#10;$SELECTION$ &#10;    return tseResult;&#10;}&#10;#pragma endregion  //$NAME$&#10;$END$" shortcut="SPACE" description="#region mit ende" toReformat="true" toShortenFQNames="true">
     <variable name="NAME" expression="completeSmart(snakeCase(String))" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="c" value="true" />
       <option name="cpp" value="true" />
+    </context>
+  </template>
+  <template name="/tsecmd" value="uint8_t tmpDataBuf[31] = {0x00};&#10;uint32_t timeOut = 2000;&#10;if ((tseResult = SendCmd(sbcmd_DummyCmd, (const uint8_t *) tmpDataBuf, sizeof(tmpDataBuf),&#10;                         (NULL),    // No Callback, sync operation&#10;                         timeOut)) != SwBi_ERROR_NOERROR) {&#10;    RETURN_WARN1(&quot;Sending xxx failed&quot;);&#10;}&#10;$END$&#10;" shortcut="SPACE" description="TSE CMD call with return" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+    </context>
+  </template>
+  <template name="/tsefun" value="if ((tseResult = $NAME$ ()) != SwBi_ERROR_NOERROR) {&#10;            SYS_DEBUG_BreakPoint();&#10;            RETURN_WARN1(&quot;executing $NAME$ failed&quot;);&#10;}&#10;$END$&#10;" shortcut="SPACE" description="TSE Function with Return Check" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="sbcmd_DummyCmd" alwaysStopAt="true" />
+    <context>
+      <option name="c" value="true" />
     </context>
   </template>
 </templateSet>
