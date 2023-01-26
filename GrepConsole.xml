@@ -149,7 +149,6 @@
                             <GrepColor>
                               <option name="color" value="-19942" />
                               <option name="colorKey" value="GrepConsole.error.background" />
-                              <option name="enabled" value="true" />
                             </GrepColor>
                           </option>
                           <option name="foregroundColor">
