@@ -162,6 +162,28 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="caseInsensitive" value="true" />
+                      <option name="grepExpression" value=".*-#:4].*" />
+                      <option name="showCountInConsole" value="true" />
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-19942" />
+                              <option name="colorKey" value="GrepConsole.error.background" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="color" value="-16626934" />
+                              <option name="colorKey" value="GrepConsole.error.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
                       <option name="grepExpression" value=".*WARN.*" />
                       <option name="style">
                         <GrepStyle>
