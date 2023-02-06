@@ -57,6 +57,7 @@
                         <GrepStyle>
                           <option name="backgroundColor">
                             <GrepColor>
+                              <option name="color" value="-6615774" />
                               <option name="colorKey" value="GrepConsole.error.background" />
                               <option name="enabled" value="true" />
                             </GrepColor>
@@ -322,7 +323,7 @@
                       <option name="action" value="REMOVE" />
                       <option name="caseInsensitive" value="true" />
                       <option name="continueMatching" value="true" />
-                      <option name="grepExpression" value=".*#:5].*" />
+                      <option name="grepExpression" value=".*-#:5].*" />
                       <option name="highlightOnlyMatchingText" value="true" />
                       <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                     </GrepExpressionItem>
