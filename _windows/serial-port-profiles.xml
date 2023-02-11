@@ -1,0 +1,9 @@
+<application>
+  <component name="SerialPortProfiles">
+    <serial-profiles>
+      <serial-profile name="COM5">
+        <serial-profile portName="COM5" baudRate="115200" encoding="windows-1252" />
+      </serial-profile>
+    </serial-profiles>
+  </component>
+</application>
