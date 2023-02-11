@@ -138,6 +138,7 @@
                           </option>
                         </GrepStyle>
                       </option>
+                      <option name="unlessGrepExpression" value=".*Bluescreen:.*" />
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
@@ -207,7 +208,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
-                      <option name="grepExpression" value=".*CMD:CLR-SCREEN}].*" />
+                      <option name="grepExpression" value=".*Bluescreen:.*" />
                       <option name="showCountInConsole" value="true" />
                       <option name="sound">
                         <Sound>
