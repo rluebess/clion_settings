@@ -206,6 +206,35 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="caseInsensitive" value="true" />
+                      <option name="grepExpression" value=".*CMD:CLR-SCREEN}].*" />
+                      <option name="showCountInConsole" value="true" />
+                      <option name="sound">
+                        <Sound>
+                          <option name="enabled" value="true" />
+                          <option name="path" value="C:\Users\Rolf\Music\sounds\glass-smash-bottle-a.wav" />
+                        </Sound>
+                      </option>
+                      <option name="style">
+                        <GrepStyle>
+                          <option name="backgroundColor">
+                            <GrepColor>
+                              <option name="color" value="-12313089" />
+                              <option name="colorKey" value="GrepConsole.error.background" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                          <option name="foregroundColor">
+                            <GrepColor>
+                              <option name="color" value="-14825457" />
+                              <option name="colorKey" value="GrepConsole.error.foreground" />
+                              <option name="enabled" value="true" />
+                            </GrepColor>
+                          </option>
+                        </GrepStyle>
+                      </option>
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
                       <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*WARN.*" />
                       <option name="style">
