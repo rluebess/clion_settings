@@ -26,7 +26,6 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
-          <option name="enabledInputFiltering" value="false" />
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
