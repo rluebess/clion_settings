@@ -5,9 +5,21 @@
       <path value="Navigation Bar Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="Clean" is_action="true" action_type="1" position="1">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="GotoNextBookmark" is_action="true" action_type="1" position="1">
       <path value="root" />
       <path value="Navigation Bar Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="RebuildProfile" is_action="true" action_type="1" position="2">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <path value="Toolbar Run Actions" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="GotoPreviousBookmark" is_action="true" action_type="1" position="2">
@@ -30,5 +42,28 @@
       <path value="Navigation Bar Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group seperator="true" action_type="1" position="16">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoNextBookmark" is_action="true" action_type="1" position="17">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="GotoPreviousBookmark" is_action="true" action_type="1" position="18">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="ToggleBookmark" is_action="true" action_type="1" position="19">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <action id="RebuildProfile" icon="jar:file:/C:/Program%20Files/JetBrains/CLion%202020.3.1/lib/app.jar!/toolbar/unknown.svg" />
+    <action id="ToggleBookmark" icon="EslintImportCodeStyle" />
+    <action id="Clean" icon="DirDiffMenu.CancelComparingNewFilesWithEachOther" />
   </component>
 </application>
