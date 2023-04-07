@@ -4,6 +4,9 @@
       <serial-profile name="COM5">
         <serial-profile portName="COM5" baudRate="115200" encoding="windows-1252" />
       </serial-profile>
+      <serial-profile name="COM8">
+        <serial-profile portName="COM8" baudRate="115200" />
+      </serial-profile>
     </serial-profiles>
   </component>
 </application>
