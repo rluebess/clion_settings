@@ -2,6 +2,7 @@
   <component name="CPPToolchains" version="8">
     <toolchains detectedVersion="5">
       <toolchain name="MinGW_Bundled" toolSetKind="MINGW" toolSetPath="BUNDLED_MINGW" debuggerKind="BUNDLED_GDB" />
+      <toolchain name="MinGW_IAR2023" toolSetKind="MINGW" toolSetPath="BUNDLED_MINGW" customCCompilerPath="C:\IAR Systems\Embedded Workbench 5.5\arm\bin\iccarm.exe" debuggerKind="BUNDLED_GDB" />
       <toolchain name="WSL" toolSetKind="WSL" toolSetPath="C:\Users\Rolf\AppData\Local\Microsoft\WindowsApps\ubuntu2004.exe" customCMakePath="\usr\bin\cmake" debuggerKind="CUSTOM_GDB" customGDBPath="\usr\bin\gdb" />
       <toolchain name="Visual Studio" toolSetKind="MSVC" toolSetPath="C:\Program Files\Microsoft Visual Studio\2022\Professional" debuggerKind="BUNDLED_LLDB" />
       <toolchain name="MinGW_minGW" toolSetKind="MINGW" toolSetPath="C:\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64" debuggerKind="BUNDLED_GDB" />
