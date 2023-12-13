@@ -30,11 +30,8 @@
     <option name="COLLAPSE_MULTILINE_COMMENTS" value="true" />
   </component>
   <component name="TodoConfiguration">
-    <pattern pattern="\b(todo|fixme)\b.*" />
-    <pattern icon="important" useCustomColors="true" case-sensitive="true" pattern="\b(HACK)\b.*">
-      <option name="FOREGROUND" value="a8c023" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="ERROR_STRIPE_COLOR" value="977ab" />
-    </pattern>
+    <pattern pattern="\bNotImplementedException\b" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;BUG)(\W|$)(.*)" />
+    <pattern pattern="(?&lt;=\W|^)(?&lt;TAG&gt;TODO)(\W|$)(.*)" />
   </component>
 </application>
