@@ -1,0 +1,10 @@
+<application>
+  <component name="XPathView.XPathViewPlugin">
+    <option name="SEARCH_SCOPE">
+      <SearchScope scope-name="All Places" type="DIRECTORY">
+        <moduleName>HelloTseServer_MHC3</moduleName>
+        <path>C:\test\cv2_tse_server_test</path>
+      </SearchScope>
+    </option>
+  </component>
+</application>
