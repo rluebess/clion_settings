@@ -26,6 +26,7 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
+          <option name="enabledInputFiltering" value="false" />
           <option name="filterOutBeforeGrep" value="true" />
           <option name="grepExpressionGroups">
             <list>
@@ -345,7 +346,6 @@
             </list>
           </option>
           <option name="id" value="1669239397388" />
-          <option name="inputFilterBlankLineWorkaround" value="false" />
           <option name="inputFilterGroups">
             <list>
               <GrepExpressionGroup>
@@ -359,16 +359,15 @@
                     <GrepExpressionItem>
                       <option name="action" value="REMOVE" />
                       <option name="caseInsensitive" value="true" />
-                      <option name="continueMatching" value="true" />
                       <option name="grepExpression" value=".*-#:5].*" />
-                      <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                     </GrepExpressionItem>
                   </list>
                 </option>
               </GrepExpressionGroup>
             </list>
           </option>
+          <option name="maxLengthToGrep" value="20" />
+          <option name="maxLengthToMatch" value="20" />
           <option name="name" value="default" />
           <option name="showStatsInConsoleByDefault" value="true" />
           <option name="showStatsInStatusBarByDefault" value="true" />
