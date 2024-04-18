@@ -26,6 +26,7 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
+          <option name="filterOutBeforeGrep" value="true" />
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
@@ -52,6 +53,7 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*ERROR.*" />
                       <option name="style">
                         <GrepStyle>
@@ -187,7 +189,9 @@
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:5].*" />
+                      <option name="highlightOnlyMatchingText" value="true" />
                       <option name="showCountInConsole" value="true" />
+                      <option name="showCountInStatusBar" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -295,7 +299,9 @@
                       </option>
                     </GrepExpressionItem>
                     <GrepExpressionItem>
+                      <option name="continueMatching" value="true" />
                       <option name="grepExpression" value=".*TRACE.*" />
+                      <option name="operationOnMatch" value="CONTINUE_MATCHING" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
