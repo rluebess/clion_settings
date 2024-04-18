@@ -26,7 +26,6 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
-          <option name="enabledInputFiltering" value="false" />
           <option name="grepExpressionGroups">
             <list>
               <GrepExpressionGroup>
@@ -340,6 +339,7 @@
             </list>
           </option>
           <option name="id" value="1669239397388" />
+          <option name="inputFilterBlankLineWorkaround" value="false" />
           <option name="inputFilterGroups">
             <list>
               <GrepExpressionGroup>
