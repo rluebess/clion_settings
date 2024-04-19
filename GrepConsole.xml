@@ -26,7 +26,6 @@
       <list>
         <Profile>
           <option name="defaultProfile" value="true" />
-          <option name="enabledInputFiltering" value="false" />
           <option name="filterOutBeforeGrep" value="true" />
           <option name="grepExpressionGroups">
             <list>
@@ -78,7 +77,6 @@
                       <option name="caseInsensitive" value="true" />
                       <option name="enabled" value="false" />
                       <option name="grepExpression" value=".*ERROR.*" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -99,7 +97,6 @@
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:1].*" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -123,7 +120,6 @@
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:2].*" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -146,7 +142,6 @@
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:3].*" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -168,7 +163,6 @@
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:4].*" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -191,7 +185,6 @@
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:5].*" />
                       <option name="highlightOnlyMatchingText" value="true" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="showCountInStatusBar" value="true" />
                       <option name="style">
                         <GrepStyle>
@@ -214,7 +207,6 @@
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*Bluescreen:.*" />
-                      <option name="showCountInConsole" value="true" />
                       <option name="sound">
                         <Sound>
                           <option name="enabled" value="true" />
@@ -360,6 +352,11 @@
                       <option name="action" value="REMOVE" />
                       <option name="caseInsensitive" value="true" />
                       <option name="grepExpression" value=".*-#:5].*" />
+                    </GrepExpressionItem>
+                    <GrepExpressionItem>
+                      <option name="action" value="REMOVE" />
+                      <option name="caseInsensitive" value="true" />
+                      <option name="grepExpression" value=".*#:5].*" />
                     </GrepExpressionItem>
                   </list>
                 </option>
