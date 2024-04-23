@@ -119,7 +119,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
-                      <option name="grepExpression" value=".*-#:2].*" />
+                      <option name="grepExpression" value=".*#:2].*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -141,7 +141,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
-                      <option name="grepExpression" value=".*-#:3].*" />
+                      <option name="grepExpression" value=".*#:3].*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -162,7 +162,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
-                      <option name="grepExpression" value=".*-#:4].*" />
+                      <option name="grepExpression" value=".*#:4].*" />
                       <option name="style">
                         <GrepStyle>
                           <option name="backgroundColor">
@@ -183,8 +183,7 @@
                     </GrepExpressionItem>
                     <GrepExpressionItem>
                       <option name="caseInsensitive" value="true" />
-                      <option name="grepExpression" value=".*-#:5].*" />
-                      <option name="highlightOnlyMatchingText" value="true" />
+                      <option name="grepExpression" value=".*#:5].*" />
                       <option name="showCountInStatusBar" value="true" />
                       <option name="style">
                         <GrepStyle>
